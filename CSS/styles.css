@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+/* Reset CSS */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden !important;
+}
+body{
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #222222;
+  
+  height: 100vh;
+
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,
+p ,
+h2 ,
+h3 {
+    color: #fff;
+}
+/* btn */
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 2rem 3rem;
+    font-family: inherit;
+    background-color: #eeeeee;
+    color: #222222;
+    border: none;
+    font-size: 2rem;
+
+}
+
+
+.header{
+    height: 43vh;
+    position: relative;
+    padding: 2rem 2rem;
+    display: flex;
+    border-bottom: 7px solid #eeeeee;
+    flex-direction: column;
+   
+}
+
+
+/* header */
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_lead{
+    font-size: 1.5rem;
+}
+
+.title-header{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    text-align: center;
+    font-size: 3rem;
+    /* max-width: 700px; */
+   
+}
+.number__question{
+    background-color: #fff;
+    padding: 4rem 5rem;
+    text-align: center;
+    font-size: 5rem;
+    color: #222222;
+    position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50% , 50%);
+  
+}
+.main-left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.highscore , .score {
+    display: flex;
+    gap: 10px;
+    font-size: 2rem;
+}
+.title__right-box{
+    font-size: 2rem;
+}
+.main-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57vh;
+    gap: 25rem;
+    flex-direction: row;
+}
+.main-right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.score__lead{
+    margin-bottom: 2rem;
+    
+}
+input[type="number"]{
+    color: #cccccc;
+    height: 90px;
+    border: 5px solid #eeeeee;;
+    text-align: center;
+    font-family: inherit;
+    width: 220px;
+    font-size: 4rem;
+    
+    background-color:#222222;
+}
+input[type="number"]:focus{
+    outline: none;
+}
