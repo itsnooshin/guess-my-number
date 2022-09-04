@@ -25,7 +25,7 @@ function myFunction(){
     displayMessage('🎈 Correct Number');
     document.querySelector('body').style.background = 'green';
     document.querySelector('.number__question').textContent = guess;
-    document.querySelector('.number__question').style.width = '150px'
+    document.querySelector('.number__question').style.width = '250px' ;
     if(score > highscore){
         highscore = score;
         document.querySelector('.highscore').textContent = highscore
