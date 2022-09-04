@@ -13,7 +13,7 @@ html{
 body{
   font-family: 'Press Start 2P', sans-serif;
   background-color: #222222;
-  
+  overflow-x: hidden;
   height: 100vh;
 
 }
@@ -95,11 +95,11 @@ h3 {
     align-items: center;
     gap: 30px;
 }
-.highscore , .score {
-    display: flex;
-    gap: 10px;
+.highscore-container , .score-container {
+   
     font-size: 2rem;
 }
+
 .title__right-box{
     font-size: 2rem;
 }
